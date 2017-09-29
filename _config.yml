@@ -5,6 +5,9 @@ permalink: /:categories/:year/:month/:title.html
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
+site :
+  baseurl : /blog
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
